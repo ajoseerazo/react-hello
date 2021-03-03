@@ -5,7 +5,7 @@
 		"node": "10.x"
 	},
 	"description": "",
-	"main": "index.js",
+	"main": "src/js/index.js",
 	"scripts": {
 		"start": "webpack-dev-server --mode development --hot --port 3000 --public $(gp url 3000)",
 		"build": "webpack --mode development",
